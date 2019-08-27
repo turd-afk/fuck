@@ -7,4 +7,4 @@ def fuck_printer():
 
 
 if __name__ == "__main__":
-    (fuck_printer() for _ in range(100))
+    [fuck_printer() for _ in range(100)]
